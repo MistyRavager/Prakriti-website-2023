@@ -1,14 +1,70 @@
-## Guide on File Structure
-#### Summary  
-There are 4 main portions: The main config.toml file, the data (.yml) files, the css files for styling, and the html files. 
--  **config.toml**: It has two main sections:
-    - The first section is for the various navbar items, like home, about etc. The urls can either route to a different section in the same page (if prefixed by a #) or different subpages (if prefixed by a /) 
-    - The second section is for the various sections in the main page, like about, projects (*portfolio*) etc. The data for all the headings and paragraphs (barring the individual project and team member cards) is also present here.
-- **data files**: The data for the various pages is present in different parts of the code:
-    - Main page: As mentioned earlier, the data present in the various sections in the main page is mostly present in the config.toml file
-    - /data : This contains the data for the various sub-pages. Much of this is irrelevant, and has been commented out. The data for the team-member cards is present in team.yml (it uses images from static/images/team) and the data for the project/portfolio cards is present in gallery.yml (it uses images from static/images/portfolio)
-    - Data for the blogs: The data for the various blogs is present in the .md files in content/blog
-    - Data for the projects: The data for the various projects is present in the .md files in content/portfolio
-- **css files**: All of the css is present in assets/css/style.css . This file has been copied from themes/timer-hugo and only this file should be modified. Bootstrap items can be modified using `!important`
-- **html files**: The various html files are present in the 'layouts' directory. The html files in layouts/partials are used for elements/sections that appear across many pages, like the about-section, contact-section etc.
-The html file for the main page is index.html. The subpages use a combination of the html files from the `_default` directory, and the files from the relevant sub-directory (egs: timer/site/portfolio uses the portfolio sub-directory). 
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
