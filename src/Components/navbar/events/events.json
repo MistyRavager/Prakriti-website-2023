@@ -1,31 +1,31 @@
 [
     {
-        "name" : "event1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
+        "Name" : "Van Mahotsav Saptah",
+        "Description" : "Prakriti sponsored nature events to bridge the gap between modern life and nature, addressing environmental issues. Van Mahotsav Saptah, starting with a Plantation Challenge, aimed to enhance ecosystems and promote tree planting.",
         "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020"
+        "link" : "https://github.com/PrakritiIITH/Prakriti_Events/tree/main/Events_2023-24",
+        "year" : "2023-24"
     },
     {
-        "name" : "event1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
+        "Name" : "Nature Art Competition",
+        "Description" : "Students were prompted to explore nature creatively through activities like the Nature Art Competition, Essay Writing, Leaf Painting, and Carving Contests for India's 75th Independence Day, and Article Writing on natural resources.",
         "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020"
+        "link" : "https://github.com/PrakritiIITH/Prakriti_Events/tree/main/Events_2023-24",
+        "year" : "2023-24"
     },
     {
-        "name" : "event1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
+        "Name" : " Ideathon competitions",
+        "Description" : "Prakriti arranged MILAN 2022, ideathons tackling environmental issues. The BTech 2022 batch toured campus Waste Treatment Facilities, engaging in tech activities including creating a soil moisture sensor and a dynamic app with Lambda IITH.",
         "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020"
+        "link" : "https://github.com/PrakritiIITH/Prakriti_Events/tree/main/Events_2023-24",
+        "year" : "2023-24"
     },
     {
-        "name" : "event1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
+        "Name" : "waste-to-wonder competition",
+        "Description" : "Students participated in a waste-to-wonder competition, transforming trash into treasures, while a nature-themed quiz (MILAN 2023) gauged students' environmental awareness. ",
         "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020"
+        "link" : "https://github.com/PrakritiIITH/Prakriti_Events/tree/main/Events_2023-24",
+        "year" : "2023-24"
     }
     
 ]

@@ -1,7 +1,9 @@
 import React from 'react'
 import './events.css'
 import events from "./events.json"
-import img1 from "./img1.jpg"
+import img1 from "./img1.png"
+import img2 from "./img2.png"
+import img3 from "./img3.png"
 function Events() {
   return (
     <div className='body'>
@@ -15,13 +17,31 @@ function Events() {
             return(
                 <>
               <div className='card'>
-          <div className='image'><img src={element.imageAddress === "img1" ? img1 :
+          <div className='image'><img src={element.imageAddress === "img1" ? img1 : element.imageAddress === "img2" ? img2 : element.imageAddress === "img3" ? img3 :
             "https://cdn2.vectorstock.com/i/1000x1000/88/26/no-image-available-icon-flat-vector-25898826.jpg"} className='cardImage' alt="this is it"></img></div>
           <div className='cardContent'>
-            <b style={{background : 'none', color : "black"}}>Name</b>: {element.name}<br/>
+            {/* <b style={{background : 'none', color : "black"}}>Name</b>: {element.name}<br/>
             <b style={{background : 'none', color : "black"}}>Description</b>: {element.description}<br/>
             <b style={{background : 'none', color : "black"}}>year</b> : {element.year}<br/>
-            <b style={{background : 'none', color : "black"}}>GitHub link</b> : <a href={element.link} target='_blank' rel="noreferrer" style={{color : "black"}}>click here</a>
+            <b style={{background : 'none', color : "black"}}>GitHub link</b> : <a href={element.link} target='_blank' rel="noreferrer" style={{color : "black"}}>click here</a> */}
+            {Object.keys(element).map((item)=>{
+              if(item === "link" || item === "Related Images" || item === "Slides"){
+                return(
+                  <>
+                  <b style={{background : 'none', color : "black"}}>{item}</b> : <a href={element[item]} target='_blank' rel="noreferrer" style={{color : "black"}}>click here</a> <br/>
+                  </>
+                )
+              }
+              else if (item === "imageAddress"){
+                return (
+                  <></>
+                )
+              }
+              else {
+                return(
+                <><b style={{background : 'none', color : "black"}}>{item}</b>: {element[item]}<br/></>
+              )}
+            })}
           </div>
           </div>
             </>

@@ -3,12 +3,20 @@ import "./about.css"
 function About() {
   return (
     <div className="body">
-    <div className="bodyLeft"> 
-        About <span id="colorGreen"> EPoch </span>
+      <div className="bodyLeft">
+        About <span id="colorGreen"> Prakriti </span>
         <p>
-            Excepteur nulla deserunt labore sunt. Duis sit adipisicing ea irure aute id fugiat officia est nulla est. Labore laboris sint et occaecat. Nulla ex pariatur aute qui anim. Culpa quis sunt do ex.Enim adipisicing esse do tempor dolor laboris nisi ex. Occaecat magna irure tempor aliqua nulla minim. Laboris incididunt deserunt culpa ex cupidatat nulla voluptate. Ipsum excepteur adipisicing id nostrud commodo cillum est consequat nulla labore labore cupidatat. Ipsum ea consectetur minim eu commodo voluptate. Occaecat ea labore aliqua ullamco dolor consectetur excepteur consequat ad exercitation. Pariatur do fugiat sint excepteur.
+          The Prakriti club at IIT Hyderabad is here to increase the student interest in
+          nature-related issues, as well as to encourage technological engagement in
+          saving nature and progressing sustainable development. We have nature
+          enthusiast members from different branches who contributed with almost no
+          structural hindrance. Objectives of Prakriti include raising awareness about
+          issues related to the environment among the campus residents. With our
+          club’s multidisciplinary nature, we are able to develop unique solutions to
+          prominent challenges in nature
+
         </p>
-    </div>
+      </div>
     </div>
   )
 }

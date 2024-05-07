@@ -7,7 +7,7 @@ function navBar(){
         <>
         <div className="main">
             <div className="left">
-               <a href="/"><img src="logo-removebg-preview.png" alt="" /></a>
+               <a href="/"><img src="prakriti_logo-removebg-preview.png" alt="" /></a>
             </div>
             <div className="right">
                 <Link to="/">Home</Link>
