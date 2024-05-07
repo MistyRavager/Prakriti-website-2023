@@ -1,8 +1,11 @@
 import React from 'react'
 import '../events/events.css'
 import img1 from "./img1.jpg"
-import img2 from "./img2.jpg"
-import img3 from "./img3.jpg"
+import img2 from "./img2.jpeg"
+import img3 from "./img3.jpeg"
+import img4 from "./img4.jpg"
+import img5 from "./img5.jpeg"
+import img6 from "./img6.png"
 
 import teams from "./teams.json"
 function Team() {
@@ -19,7 +22,7 @@ function Team() {
                 <a href={element.projectLink} target='_blank' rel="noreferrer">
 
                   <div className='card' style={{height : "250px"}}>
-                    <div className='image'><img src={element.imageAddress === "img1" ? img1 :element.imageAddress === "img2" ? img2 :element.imageAddress === "img3" ? img3 :
+                    <div className='image'><img src={element.imageAddress === "img1" ? img1 :element.imageAddress === "img2" ? img2 :element.imageAddress === "img3" ? img3 :element.imageAddress === "img4" ? img4: element.imageAddress === "img5" ? img5: element.imageAddress === "img6" ? img6:
                       "https://cdn2.vectorstock.com/i/1000x1000/88/26/no-image-available-icon-flat-vector-25898826.jpg"} className='cardImage' alt="this is it"></img></div>
                     <div className='cardContent'>
                       <b style={{ background: 'none', color: "black" }}>Name</b>: {element.name}<br />

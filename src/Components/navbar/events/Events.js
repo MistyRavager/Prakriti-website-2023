@@ -1,9 +1,10 @@
 import React from 'react'
 import './events.css'
 import events from "./events.json"
-import img1 from "./img1.png"
-import img2 from "./img2.png"
-import img3 from "./img3.png"
+import img3 from "./img1.jpeg"
+import img2 from "./img2.jpeg"
+import img1 from "./img3.png"
+import img4 from "./img4.png"
 function Events() {
   return (
     <div className='body'>
@@ -17,7 +18,7 @@ function Events() {
             return(
                 <>
               <div className='card'>
-          <div className='image'><img src={element.imageAddress === "img1" ? img1 : element.imageAddress === "img2" ? img2 : element.imageAddress === "img3" ? img3 :
+          <div className='image'><img src={element.imageAddress === "img1" ? img1 : element.imageAddress === "img2" ? img2 : element.imageAddress === "img3" ? img3 : element.imageAddress === "img4" ? img4 :
             "https://cdn2.vectorstock.com/i/1000x1000/88/26/no-image-available-icon-flat-vector-25898826.jpg"} className='cardImage' alt="this is it"></img></div>
           <div className='cardContent'>
             {/* <b style={{background : 'none', color : "black"}}>Name</b>: {element.name}<br/>

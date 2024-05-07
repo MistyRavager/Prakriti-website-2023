@@ -1,32 +1,32 @@
 [
     {
-        "name" : "name",
+        "name" : "YARRAMASU VISHNU PRIYA",
         "imageAddress" : "img1",
+        "roll" : "Students Mentor"
+    },
+    {
+        "name" : "YAPAMANU UJWAL SAI SIMHA",
+        "imageAddress" : "img2",
+        "roll" : "Overall Head"
+    },
+    {
+        "name" : "Sreepathi Vighnesh",
+        "imageAddress" : "img3",
+        "roll" : "Media and PRHead"
+    },
+    {
+        "name" : "Pindi Visishta",
+        "imageAddress" : "img4",
+        "roll" : "Events Head"
+    },
+    {
+        "name" : "Katherapaka Nikhil",
+        "imageAddress" : "img5",
         "roll" : "roll"
     },
     {
-        "name" : "name",
-        "imageAddress" : "img1",
-        "roll" : "roll"
-    },
-    {
-        "name" : "name",
-        "imageAddress" : "img1",
-        "roll" : "roll"
-    },
-    {
-        "name" : "name",
-        "imageAddress" : "img1",
-        "roll" : "roll"
-    },
-    {
-        "name" : "name",
-        "imageAddress" : "img1",
-        "roll" : "roll"
-    },
-    {
-        "name" : "name",
-        "imageAddress" : "img1",
-        "roll" : "roll"
+        "name" : "Dr. Meenakshi Sharma",
+        "imageAddress" : "img6",
+        "roll" : "Faculty Mentor"
     }
 ]

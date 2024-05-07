@@ -6,8 +6,8 @@
     
 }
 
-.body{
-    color: white;
+.bodyleft p{
+    color: rgb(219, 34, 34);
     font-size: 65px;
     position: absolute;
     top: 50%;

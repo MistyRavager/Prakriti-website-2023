@@ -9,7 +9,7 @@ function mainBody(){
                 Hi, <br /> 
                 Prakriti <span id="colorGreen"> Welcomes You </span>.
               <p>
-                Prakriti is the AI & Machine Learning club of IIT Hyderabad, we conduct events and workshops, hold lectures and talks, and even host Kaggle competitions and hackathons. We create a platform that allows students to gain assistance and mentorship to enhance their AI & ML skills. Our aim is to propagate the enthusiasm for AI & ML in the institute and especially amongst freshmen. The secret of getting ahead is getting started and we aim to provide every student with the right start.
+                Prakriti Club of IIT Hyderabad encourages students to use technology and the environment for sustainable development, facilitating smooth interdisciplinary collaboration. Increasing campus awareness of enviroment issues and developing creative solutions to urgent ecological problems are two aspects of our purpose.
                 </p>
                 
             </div>
