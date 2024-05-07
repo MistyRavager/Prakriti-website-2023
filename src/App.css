@@ -6,7 +6,7 @@
 }
 #root{
     /* overflow: hidden; */
-    background-image: url(../public//nature-landscape-artwork-trees-wallpaper-preview.jpg);
+    background-image: url(../public/nature-landscape-artwork-trees-wallpaper-preview.jpg);
     background-repeat : no-repeat;
     background-size: cover;
     height: 100vh;

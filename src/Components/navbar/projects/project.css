@@ -15,7 +15,7 @@
 
 .card {
     background-color: aliceblue;
-    height: 500px;
+    height: 550px;
     width: 300px;
     border-radius: 30px;
     font-size: 30px;
@@ -35,6 +35,7 @@
 
 .body {
     width: 100vw;
+    height: 70%;
 }
 
 .cardImage {

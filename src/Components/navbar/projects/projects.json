@@ -1,35 +1,18 @@
 [
     {
-        "name" : "project1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
-        "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020",
-        "projectLink" : "https://www.youtube.com"
+        "name" : "Dual Axis Solar Tracker",
+        "description" : "In our dual-axis solar panel project, we aim to optimize sunlight in skyscraper windows by integrating solar panels without obstructing interior lighting. Our solution involves chain-like solar panel configurations, deployable when curtains are drawn or rooms are vacant, allowing efficient solar energy capture and storage for backup electricity, applicable to all buildings.",
+        "imageAddress" : "img1"
     },
     {
-        "name" : "project1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
-        "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020",
-        "projectLink" : "https://www.youtube.com"
+        "name" : "Smart Charger",
+        "description" : "The Battery Percentage Monitoring System offers real-time smartphone battery updates and auto shutdown at full charge, optimizing energy use and extending battery life. Seamlessly integrating Bluetooth and Arduino, users can remotely monitor power status. Its intuitive interface and reliability demonstrate IoT's potential in streamlining device management for everyday efficiency.",
+        "imageAddress" : "img2"
     },
     {
-        "name" : "project1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
-        "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020",
-        "projectLink" : "https://www.youtube.com"
-    },
-    {
-        "name" : "project1",
-        "description" : "   qwertyuiopogfdxcghijbjmkvcxszsdcghhjkhyfdewweaqasedffhjkokjjijhgfde",
-        "imageAddress" : "img1",
-        "link" : "link1",
-        "year" : "2020",
-        "projectLink" : "https://www.youtube.com"
+        "name" : "Smart farming",
+        "description" : "In the domain of smart farming, the integration of temperature, humidity, soil moisture, and water level sensors revolutionizes agricultural practices. These sensors provide real-time data crucial for optimizing irrigation, preventing crop diseases, and conserving water resources. By harnessing this data, farmers can make informed decisions, enhance crop yield, and promote sustainable agricultural practices.",
+        "imageAddress" : "img3"
     }
     
 ]
